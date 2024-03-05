@@ -1,11 +1,16 @@
-# ideation
+# Ideation
 
-Ideation about different solution
+Ideation about Software Engineering and implementation of main features.
 
-## Current state
+## Software Development Life Cycle
 
-* It's being created a Development Life Cycle diagram in order to be used as a map in the features coming.
-* The bases project structure was added to starting documenting and configuring some features.
+* Requirement Analysis
+* Planning
+* Development
+* Quality Assurance
+* Release
+
+![](docs/images/ideation-development-life-cycle.png)
 
 ## To Do
 
