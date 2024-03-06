@@ -6,7 +6,7 @@ Ideation about Software Engineering and implementation of main features.
 
 * Requirement Analysis
 * Planning
-* Development
+* [Development](docs/development/development.md)
 * Quality Assurance
 * Release
 
