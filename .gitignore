@@ -68,4 +68,5 @@ gradle-app.setting
 .classpath
 
 #Gradle
+.gradle
 !gradle/wrapper/gradle-wrapper.jar
