@@ -66,3 +66,6 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+#Gradle
+!gradle/wrapper/gradle-wrapper.jar
