@@ -2,7 +2,7 @@
 
 ## Architecture Design
 ### Application
-* Technology selection
+* [Technology selection](technology-selection.md)
 * Non-functional aspects
   * Naming convention
   * Code Style
