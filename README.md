@@ -3,8 +3,8 @@
 This repository is focus on Ideation process about Software Engineering features, and it's implementation.  
 So when we start with a solution design most activities are focused on problem/requirement analysis in order to  
 understand it, defining one approach to address the problem/requirement and finally design the implementation.  
-But depends on the problem/requirement complexity or level of knowledge on it the strategies to analyse it could change;  
-the purpose of this content is share generic approaches to be used during Software/Solution design.
+But depends on the problem/requirement complexity or level of knowledge on it the strategies to analyse it could  
+change; the purpose of this content is share generic approaches to be used during Software/Solution design.
 
 ## Software Development Life Cycle
 
