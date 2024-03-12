@@ -1,20 +1,18 @@
-package org.ideation.poc;
+package org.ideation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 
 /**
  * PocApplication class.
  */
 @SpringBootApplication
-public class PocApplication {
+public class RestLayerApplication {
 
   /**
-   * Spring Boot main class.
+   * Spring Boot main method.
    */
   public static void main(String[] args) {
-    SpringApplication.run(PocApplication.class, args);
+    SpringApplication.run(RestLayerApplication.class, args);
   }
-
 }

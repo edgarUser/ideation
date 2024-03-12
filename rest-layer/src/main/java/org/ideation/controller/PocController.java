@@ -1,4 +1,4 @@
-package org.ideation.poc.controller;
+package org.ideation.controller;
 
 import java.util.List;
 import org.springframework.http.HttpStatusCode;
