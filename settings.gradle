@@ -2,10 +2,12 @@ pluginManagement {
     ext {
         springBootVersion = '3.2.3'
         springDependencyVersion = '1.1.4'
+        jibVersion = '3.4.1'
     }
     plugins {
         id 'org.springframework.boot' version "${springBootVersion}"
         id 'io.spring.dependency-management' version "${springDependencyVersion}"
+        id 'com.google.cloud.tools.jib' version "${jibVersion}"
     }
 }
 

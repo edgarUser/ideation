@@ -1,0 +1,7 @@
+#Shared properties with all the profiles
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: ${PROFILE}
