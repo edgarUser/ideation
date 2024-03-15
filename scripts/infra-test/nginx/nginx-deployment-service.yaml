@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-deployment-service
+spec:
+  #type: NodePort #used to expose directly trough http://${minikube-ip}:${service-dynamic-port}
+  selector:
+    app: nginx
+  ports:
+    - port: 80
+      targetPort: 80 #Disabled it when you want tested NodePort
