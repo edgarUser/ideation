@@ -11,3 +11,6 @@ kubectl explain pod.spec.restartPolicy
 #kubectl logs -l app=${label-defined} #get logs based on label selector
 #kubectl exec -ti ${pod_name} /bin/bash #use to go inside pod container
 kubectl top pods
+kubectl api-resources
+kubectl api-resources | grep apps
+#kubectl diff -f ${deployment_file} #Show the difference between the previous deployment and new file

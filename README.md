@@ -21,3 +21,11 @@ change; the purpose of this content is share generic approaches to be used durin
 * Expand the details on Architecture and Development diagrams.
 * Review the tooling(pre-commit, check-style, sonar-lint and others).
 * Apply the tools selected to the project.
+
+### Kubernetes
+
+* Review usage of StatefulSet
+* Try rolling updates with deployments
+* Try batch processing with jobs and cron-jobs
+* Implement an application to validate liveness and readiness probes
+* Try management(considering pod allocation) resources with request and limits
