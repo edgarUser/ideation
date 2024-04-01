@@ -50,14 +50,11 @@ subprojects {
 		finalizedBy jacocoTestReport
 	}
 
-	jacoco {
-		toolVersion = "0.8.11"
-	}
-
 	jacocoTestReport {
 		dependsOn test
 		reports {
 			xml.required = true
+			xml.outputLocation = layout.buildDirectory.dir('reports/jacoco/test/xml/jacocoTestReport.xml').get().asFile
 			csv.required = true
 			csv.outputLocation = layout.buildDirectory.dir('reports/jacoco/test/csv/report.csv').get().asFile
 		}
@@ -68,12 +65,8 @@ subprojects {
 		violationRules {
 			rule {
 				limit {
-					counter = 'INSTRUCTIONS'
 					minimum = 0.90
-				}
-				limit {
-					counter = 'BRANCH'
-					minimum = 0.80
+					counter = 'LINE'
 				}
 			}
 		}

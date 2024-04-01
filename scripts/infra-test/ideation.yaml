@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: ideation
-      image: org.ideation/rest-layer:2024.1.3
+      image: org.ideation/rest-layer:0.0.1-SNAPSHOT
       env:
         - name: PROFILE
           value: develop

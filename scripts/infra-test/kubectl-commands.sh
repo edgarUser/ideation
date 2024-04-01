@@ -14,3 +14,5 @@ kubectl top pods
 kubectl api-resources
 kubectl api-resources | grep apps
 #kubectl diff -f ${deployment_file} #Show the difference between the previous deployment and new file
+more /etc/hosts
+kubectl describe node minikube

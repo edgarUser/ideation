@@ -27,5 +27,6 @@ change; the purpose of this content is share generic approaches to be used durin
 * Review usage of StatefulSet
 * Try rolling updates with deployments
 * Try batch processing with jobs and cron-jobs
-* Implement an application to validate liveness and readiness probes
 * Try management(considering pod allocation) resources with request and limits
+* Review jacoco settings in submodules
+* 
