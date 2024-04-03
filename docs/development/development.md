@@ -10,5 +10,6 @@
   * Project Structure
   * Project documentation
 ### Infrastructure
+* [Infrastructure selection](infrastructure-selection.md)
 
 ![](../images/ideation-development.png)
