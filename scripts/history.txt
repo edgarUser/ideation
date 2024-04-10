@@ -1,0 +1,43 @@
+ 3740  curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
+ 3741  sudo apt-get install apt-transport-https --yes
+ 3742  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+ 3743  sudo apt-get update
+ 3744  sudo apt-get install helm
+ 3745  helm -version
+ 3746  helm --version
+ 3747  helm --v
+ 3748  helm -v
+ 3749  helm --version
+ 3750  helm version
+ 3751  clear
+ 3752* git status
+ 3753* cd scripts
+ 3754* ls
+ 3755* cd infra
+ 3756* ls
+ 3757* sh minikube.sh -a on
+ 3758  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 3759  helm repo update
+ 3760  help repo list
+ 3761  helm repo list
+ 3762  kubectl create ns metrics
+ 3763  kubectl get ns
+ 3764  helm install kube-state-metrics bitnami/kube-state-metrics -n metrics
+ 3765  kubectl get deploy -w --namespace metrics kube-state-metrics
+ 3766  kubectl get all -n metrics
+ 3767  kubectl logs kube-state-metrics-7646c4d7d9-h2tb2 -n metrics
+ 3768  kubectl port-forward service/kube-state-metrics 8080:8080 -n metrics
+ 3769  helm show chart bitnami/kube-state-metrics
+ 3770  helm show values bitnami/kube-state-metrics
+ 3771  helm ls -n metrics
+ 3772  helm upgrade kube-state-metrics bitnami/kube-state-metrics --version 4.0.0 -n metrics
+ 3773  helm ls -n metrics
+ 3774  kubectl port-forward service/kube-state-metrics 8080:8080 -n metrics
+ 3775  kubectl get all -n metrics
+ 3776  kubectl create -n challenge
+ 3777  history
+ 3778  kubectl create ns challenge
+ 3779  kubectl get ns
+ 3780  helm install challenge-metrics-server bitnami/metrics-server --version 7.0.2 --set apiService.create=true -n challenge
+ 3781  kubectl get all -n challenge
+ kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
