@@ -1,0 +1,21 @@
+application:
+  name: rest-layer
+  image: org.ideation/rest-layer:0.0.1-SNAPSHOT
+
+configMap:
+  name: profile-config
+  profile: develop
+
+deployment:
+  replicas: 5
+
+service:
+  name: ideation-service
+  port: 8080
+  targetPort: 8080
+
+ingress:
+  name: ideation
+  host: ideation.example.com
+  port: 8080
+

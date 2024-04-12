@@ -1,0 +1,10 @@
+Notes:
+- Chart version follow semantic versioning(MAJOR, MINOR, PATCH).
+- Chart appVersion is open to follow custom versioning based on application needs.
+- Deployment liveness and readiness probes must be configured thinking application start time(initialDelaySeconds).
+- Release selectors(tags) are in mutable so must be design previously.
+
+Commands:
+helm template release .
+helm install release .
+helm upgrade release .

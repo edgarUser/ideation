@@ -1,0 +1,3 @@
+helm repo add graviteeio https://helm.gravitee.io
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+helm install gravitee-apim graviteeio/apim -f value-light.yml

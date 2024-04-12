@@ -17,6 +17,7 @@ if [ "${action}" = "on" ]; then
   echo "turn on minikube"
   minikube start --addons=metric-server --addons=dashboard  --addons="ingress" --addons="ingress-dns" #--cni=calico
   minikube status
+  minikube image load org.ideation/rest-layer:0.0.1-SNAPSHOT
   minikube dashboard
   #minikube node add
   #minikube image load ${local_image_name}
